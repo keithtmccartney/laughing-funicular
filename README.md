@@ -8,3 +8,4 @@
 * az login
 * az group create --name az204-redis-rg --location uksouth;
 * az redis create --location uksouth --resource-group az204-redis-rg --name laughingfunicular --sku Basic --vm-size c0;
+* az group delete -n az204-redis-rg --no-wait;
