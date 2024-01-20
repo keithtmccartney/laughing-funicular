@@ -1,7 +1,7 @@
 ﻿using StackExchange.Redis;
 
 // connection string to your Redis Cache
-string connectionString = "laughingfunicular.redis.cache.windows.net:6380,password=L44zHfacDhFOAbKuXUxjNWu83771ryNcPAzCaPYPgZ4=,ssl=True,abortConnect=False";
+string connectionString = "REDIS_CONNECTION_STRING";
 
 using (var cache = ConnectionMultiplexer.Connect(connectionString))
 {
